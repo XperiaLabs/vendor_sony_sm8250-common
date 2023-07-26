@@ -1360,7 +1360,6 @@ PRODUCT_PACKAGES += \
     pm-proxy \
     pm-service \
     port-bridge \
-    ppd \
     qmipriod \
     qrtr-cfg \
     qrtr-lookup \
