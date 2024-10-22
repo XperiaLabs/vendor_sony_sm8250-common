@@ -658,7 +658,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.semc.system.idd@1.0 \
-    vendor.somc.hardware.miscta@1.0_vendor \
+    vendor.somc.hardware.miscta@1.0 \
     vendor.somc.hardware.security.secd@1.1 \
     vendor.somc.hardware.swiqi@1.0-impl \
     vendor.somc.hardware.swiqi@1.0 \
@@ -1167,7 +1167,6 @@ PRODUCT_PACKAGES += \
     vendor.somc.camera.device@3.3-impl \
     vendor.somc.camera.device@3.4-impl \
     vendor.somc.camera.device@3.5-impl \
-    vendor.somc.hardware.miscta@1.0 \
     vendor.somc.hardware.radio@1.0 \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
@@ -1274,8 +1273,8 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    tcmclient \
     WfdCommon \
+    tcmclient \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \

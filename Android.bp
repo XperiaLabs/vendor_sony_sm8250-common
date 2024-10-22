@@ -542,11 +542,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMiscTaWrapper.so"],
-			shared_libs: ["libutils", "liblog", "libhidlbase", "libhardware", "libhidlmemory", "android.hidl.allocator@1.0", "vendor.somc.hardware.miscta@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "liblog", "libhidlbase", "libhardware", "libhidlmemory", "android.hidl.allocator@1.0", "vendor.somc.hardware.miscta@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libMiscTaWrapper.so"],
-			shared_libs: ["libutils", "liblog", "libhidlbase", "libhardware", "libhidlmemory", "android.hidl.allocator@1.0", "vendor.somc.hardware.miscta@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "liblog", "libhidlbase", "libhardware", "libhidlmemory", "android.hidl.allocator@1.0", "vendor.somc.hardware.miscta@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -3656,8 +3656,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.somc.hardware.miscta@1.0_vendor",
-	stem: "vendor.somc.hardware.miscta@1.0",
+	name: "vendor.somc.hardware.miscta@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -12467,23 +12466,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.somc.hardware.miscta@1.0",
-	owner: "sony",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.somc.hardware.radio@1.0",
 	owner: "sony",
 	strip: {
@@ -14105,15 +14087,15 @@ android_app_import {
 }
 
 dex_import {
-	name: "tcmclient",
-	owner: "sony",
-	jars: ["proprietary/framework/tcmclient.jar"],
-}
-
-dex_import {
 	name: "WfdCommon",
 	owner: "sony",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "sony",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
@@ -14937,7 +14919,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "libhardware", "libhidlmemory", "vendor.somc.hardware.miscta@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "libhardware", "libhidlmemory", "vendor.somc.hardware.miscta@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
