@@ -22732,8 +22732,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.somc.camera.device@3.2-impl.so",
             ],
             shared_libs: [
-                "libbinder-v32",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libutils-v32",
                 "libcutils",
@@ -22769,8 +22768,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.somc.camera.device@3.3-impl.so",
             ],
             shared_libs: [
-                "libbinder-v32",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libutils-v32",
                 "libcutils",
@@ -22808,8 +22806,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.somc.camera.device@3.4-impl.so",
             ],
             shared_libs: [
-                "libbinder-v32",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libutils-v32",
                 "libcutils",
@@ -22858,8 +22855,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.somc.camera.device@3.5-impl.so",
             ],
             shared_libs: [
-                "libbinder-v32",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libutils-v32",
                 "libcutils",
@@ -27108,8 +27104,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service",
             ],
             shared_libs: [
-                "libbinder-v32",
-                "libhidlbase-v32",
+                "libhidlbase",
                 "libhidltransport",
                 "libutils-v32",
                 "libcutils",
