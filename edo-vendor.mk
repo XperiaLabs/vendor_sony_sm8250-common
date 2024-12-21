@@ -369,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/edo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/sony/edo/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/sony/edo/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/sony/edo/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/sony/edo/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/sony/edo/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/sony/edo/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
@@ -493,33 +492,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
     libGPreqcancel \
     libGPreqcancel_svc \
     libHpEqApi \
     libMiscTaWrapper \
-    libMpeg4SwEncoder \
-    libMpeghSwEnc \
     libOARenderer \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxMpeghEncSw \
-    libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libSForceVSE \
@@ -616,7 +595,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_qtiflacdec \
     libsuntory \
     libswiqisettinghelper \
-    libswvdec \
     libsymphony-cpu \
     libsysmon_cdsp_skel \
     libta \
@@ -654,14 +632,10 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.swiqi@1.0-impl \
     vendor.somc.hardware.swiqi@1.0 \
     libFileMux_proprietary \
-    libOmxDsdDec \
-    libOmxMpeghDecSw \
-    libOmxVideoDSMode \
     libadm \
     libadpcmdec \
     libaudiosnpewrapper \
     libcppf \
-    libdsd2pcm \
     libfastcrc \
     libmm-hdcpmgr \
     libsmwrapper \
